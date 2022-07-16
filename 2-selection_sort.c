@@ -7,6 +7,8 @@
  */
 void selection_sort(int *array, size_t size)
 {
+if (size > 1)
+{
 size_t i, j, smallest;
 int temp;
 for (i = 0; i < size - 1; i++)
@@ -25,6 +27,7 @@ temp = array[i];
 array[i] = array[smallest];
 array[smallest] = temp;
 print_array(array, size);
+}
 }
 }
 }

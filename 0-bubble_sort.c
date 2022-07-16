@@ -8,6 +8,8 @@
 */
 void bubble_sort(int *array, size_t size)
 {
+if (size > 1)
+{
 size_t i, len = size;
 short int moved;
 int tmp;
@@ -27,5 +29,5 @@ do {
 	}
 	size = moved;
 } while (size >= 1);
-
+}
 }
