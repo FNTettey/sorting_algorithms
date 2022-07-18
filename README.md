@@ -21,4 +21,10 @@ compiled with
 compiled with
 > gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 3-main.c 3-quick_sort.c print_array.c -o quick
 
+### 100-O Shell sort
+##### Using Knuth sequence
+> n+1 = n * 3 + 1
+> 1, 4, 13, 40, 121, ...
 
+No time complexity file
+>  the complexity is dependent on the size of array and gap
