@@ -7,6 +7,8 @@
  */
 void shell_sort(int *array, size_t size)
 {
+if (size > 1)
+{
 size_t gap = 1;
 size_t i, j;
 int temp;
@@ -29,4 +31,5 @@ array[j] = temp;
 gap = gap / 3;
 print_array(array, size);
 }
+} 
 }
