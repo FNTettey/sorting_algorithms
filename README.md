@@ -23,8 +23,8 @@ compiled with
 
 ### 100-O Shell sort
 ##### Using Knuth sequence
-> n+1 = n * 3 + 1
-> 1, 4, 13, 40, 121, ...
+> - n+1 = n * 3 + 1
+> - 1, 4, 13, 40, 121, ...
 
 No time complexity file
 >  the complexity is dependent on the size of array and gap
