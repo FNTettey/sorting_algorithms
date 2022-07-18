@@ -28,3 +28,5 @@ compiled with
 
 No time complexity file
 >  the complexity is dependent on the size of array and gap
+compiled with
+>  gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 100-main.c 100-shell_sort.c print_array.c -o shell
