@@ -31,3 +31,12 @@ No time complexity file
 
 compiled with
 >  gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 100-main.c 100-shell_sort.c print_array.c -o shell
+
+### 103-O TopDown Merge sort
+compiled with
+> gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 103-main.c 103-merge_sort.c print_array.c -o merge
+
+### 104-O Heap Sort
+compiled with
+> gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 104-main.c 104-heap_sort.c print_array.c -o heap
+
