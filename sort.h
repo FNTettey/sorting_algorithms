@@ -40,4 +40,7 @@ void quick_sort(int *array, size_t size);
 /* Shell sort */
 void shell_sort(int *array, size_t size);
 
+/* merge sort */
+void merge_sort(int *array, size_t size);
+
 #endif /* SORT_H */
