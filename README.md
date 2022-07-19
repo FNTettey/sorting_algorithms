@@ -32,6 +32,10 @@ No time complexity file
 compiled with
 >  gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 100-main.c 100-shell_sort.c print_array.c -o shell
 
+### 102-O Counting sort
+compiled with
+> cc -Wall -Wextra -Werror -pedantic  -std=gnu89 102-main.c 102-counting_sort.c print_array.c -o counting
+ 
 ### 103-O TopDown Merge sort
 compiled with
 > gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 103-main.c 103-merge_sort.c print_array.c -o merge
