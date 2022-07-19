@@ -40,6 +40,9 @@ void quick_sort(int *array, size_t size);
 /* Shell sort */
 void shell_sort(int *array, size_t size);
 
+/* Counting sort*/
+void counting_sort(int *array, size_t size);
+
 /* merge sort */
 void merge_sort(int *array, size_t size);
 
