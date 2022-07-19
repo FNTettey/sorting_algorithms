@@ -11,8 +11,8 @@ if (size > 1)
 {
 size_t i, max, value;
 int *count, largest;
-int temp[50];
-for (i = 0; i < 50; i++)
+int temp[100];
+for (i = 0; i < 100; i++)
 temp[i] = 0;
 /* finding largest value */
 largest = array[0];
